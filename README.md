@@ -1,6 +1,10 @@
-# ReactNativeTS
-
+# Weather App
 [![Build Status][ci-image]][ci-url] [![dependencies][dependencies-image]][dependencies-url] [![dev-dependencies][dev-dependencies-image]][dev-dependencies-url]
+
+## Origins
+
+This repository originates from https://github.com/mrpatiwi/ReactNativeTS
+
 
 Minimal template of a [React Native](https://facebook.github.io/react-native/) project with [Typescript](https://www.typescriptlang.org/).
 
@@ -15,7 +19,7 @@ Minimal template of a [React Native](https://facebook.github.io/react-native/) p
 Clone this repository:
 
 ```sh
-git clone https://github.com/mrpatiwi/ReactNativeTS.git
+git clone https://github.com/ZombieHippie/weather-react-native.git
 cd ReactNativeTS
 ```
 
@@ -53,9 +57,9 @@ yarn run ios
 yarn run android
 ```
 
-[ci-image]: https://travis-ci.org/mrpatiwi/ReactNativeTS.svg
-[ci-url]: https://travis-ci.org/mrpatiwi/ReactNativeTS
-[dependencies-image]: https://david-dm.org/mrpatiwi/ReactNativeTS.svg
-[dependencies-url]: https://david-dm.org/mrpatiwi/ReactNativeTS
-[dev-dependencies-image]: https://david-dm.org/mrpatiwi/ReactNativeTS/dev-status.svg
-[dev-dependencies-url]: https://david-dm.org/mrpatiwi/ReactNativeTS#info=devDependencies
+[ci-image]: https://travis-ci.org/ZombieHippie/weather-react-native.svg
+[ci-url]: https://travis-ci.org/ZombieHippie/weather-react-native
+[dependencies-image]: https://david-dm.org/ZombieHippie/weather-react-native.svg
+[dependencies-url]: https://david-dm.org/ZombieHippie/weather-react-native
+[dev-dependencies-image]: https://david-dm.org/ZombieHippie/weather-react-native/dev-status.svg
+[dev-dependencies-url]: https://david-dm.org/ZombieHippie/weather-react-native#info=devDependencies
