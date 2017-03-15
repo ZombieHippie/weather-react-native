@@ -26,6 +26,8 @@ Minimal template of a [React Native](https://facebook.github.io/react-native/) p
 
 ## Getting Started
 
+You will need to rename/create a copy of `/src/env.example.ts` to `/src/env.ts` with your API keys and City ID data.
+
 Understand that this works by first compiling TypeScript and then deploying the JavaScript with React Native.
 
 * Requirements: [Node.js](https://nodejs.org) and [Yarn](https://yarnpkg.com/)
