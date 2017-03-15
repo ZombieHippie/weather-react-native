@@ -1,6 +1,18 @@
 # Weather App
 [![Build Status][ci-image]][ci-url] [![dependencies][dependencies-image]][dependencies-url] [![dev-dependencies][dev-dependencies-image]][dev-dependencies-url]
 
+## From PayIt Interview README
+
+This little guide should enable you to get cracking.
+
+### Instructions ###
+
+* In this directory is a bare bones React Native project. - https://facebook.github.io/react-native/
+* You should integrate with a weather API and create a mobile app that will display the 5 day forecast for Kansas City.
+* Here are some weather APIs you might consider:
+*  - http://openweathermap.org/forecast5
+*  - https://developer.yahoo.com/weather/
+
 ## Origins
 
 This repository originates from https://github.com/mrpatiwi/ReactNativeTS
@@ -13,6 +25,8 @@ Minimal template of a [React Native](https://facebook.github.io/react-native/) p
 > Recommended usage with [VSCode](https://code.visualstudio.com/)
 
 ## Getting Started
+
+Understand that this works by first compiling TypeScript and then deploying the JavaScript with React Native.
 
 * Requirements: [Node.js](https://nodejs.org) and [Yarn](https://yarnpkg.com/)
 
