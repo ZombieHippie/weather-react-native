@@ -1,16 +1,12 @@
 import React, { Component } from "react"
 import { View, Text, StyleSheet } from "react-native"
 
-import WeatherWeek from "@components/WeatherWeek/WeatherWeek"
-import HelloWorld from "@components/HelloWorld/HelloWorld"
+import WeatherWeek from "../WeatherWeek/WeatherWeek"
+import HelloWorld from "../HelloWorld/HelloWorld"
 
-interface Props {
-}
 
-interface State {
-
-}
-
+interface Props {}
+interface State {}
 export default class App extends Component<Props, State> {
     render() {
         return (
@@ -24,7 +20,7 @@ export default class App extends Component<Props, State> {
                 <Text style={styles.instructions}>
                     Shake or press menu button for dev menu
                 </Text>
-                <WeatherWeek style max={12} />
+                <WeatherWeek style={styles.helloworld} max={12} />
                 <HelloWorld style={styles.helloworld} max={10} />
             </View>
         )

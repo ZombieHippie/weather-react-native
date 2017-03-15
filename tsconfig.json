@@ -10,12 +10,7 @@
         "experimentalDecorators": true,
         "preserveConstEnums": true,
         "allowJs": true,
-        "sourceMap": true,
-        "moduleResolution": "node",
-        "baseUrl": ".",
-        "paths": {
-            "@components/*": ["./src/components/*"]
-        }
+        "sourceMap": true
     },
     "filesGlob": [
         "typings/index.d.ts",
