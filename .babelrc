@@ -1,3 +1,11 @@
 {
-"presets": ["react-native"]
+  "presets": ["react-native"],
+  "plugins": [
+    // See tsconfig.json for complementary ts paths conf
+    ["module-alias", [
+      { "src": "./build/services", "expose": "@services" },
+      { "src": "./build/components", "expose": "@components" },
+      { "src": "./build/env", "expose": "@env" }
+    ]]
+  ]
 }

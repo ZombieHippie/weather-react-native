@@ -20,6 +20,7 @@
     "react-native-button": "^1.8.2"
   },
   "devDependencies": {
+    "babel-plugin-module-alias": "^1.6.0",
     "react-native-sm-transformer": "^1.0.2",
     "rimraf": "^2.6.0",
     "tslint": "^4.4.2",

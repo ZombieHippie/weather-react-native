@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import { View, Text } from "react-native"
 
+import ForecasterService from "@services/Forecaster.service"
+
 // See src/declarations.d.ts
 import Button from "react-native-button"
 
