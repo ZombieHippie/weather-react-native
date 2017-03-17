@@ -5,7 +5,7 @@
 // Cole - I'm not familiar with the common way React developers handle this yet.
 const USE_MOCK_DATA = true
 
-import * as MOCKS from './mock-data/index'
+import * as MOCKS from "./__mocks__/index"
 
 export default async function fetchJson<T>(req: RequestInfo, init?: RequestInit): Promise<T> {
   if (USE_MOCK_DATA) {
@@ -16,7 +16,7 @@ export default async function fetchJson<T>(req: RequestInfo, init?: RequestInit)
     // force it to fail, in the case of testing no internet connection.
     switch (true) {
       case reqStr.search("api.openweathermap.org/data/2.5/forecast") > -1:
-        return MOCKS.FORECAST_IMPERIAL as T
+        return <any> MOCKS.FORECAST_IMPERIAL
     }
 
     // didn't find resource...
@@ -26,6 +26,7 @@ export default async function fetchJson<T>(req: RequestInfo, init?: RequestInit)
 
   } else {
     const resp = await fetch(req, init)
+    console.log(resp)
     return resp.json() as Promise<T>
   }
 }

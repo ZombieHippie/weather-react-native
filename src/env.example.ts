@@ -1,6 +1,6 @@
 interface EnvironmentConfig {
-  OpenWeatherMapAPIKey: String,
-  WeatherCityID: String
+  OpenWeatherMapAPIKey: string,
+  WeatherCityID: string
 }
 
 export default {
