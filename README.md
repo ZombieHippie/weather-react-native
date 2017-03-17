@@ -1,6 +1,12 @@
 # Weather App
 [![Build Status][ci-image]][ci-url] [![dependencies][dependencies-image]][dependencies-url] [![dev-dependencies][dev-dependencies-image]][dev-dependencies-url]
 
+| Screenshots |     |
+| ----------- | --- |
+| ![Loading screen, says "Fetching Weather"](./docs/screenshots/v1-00.png) | ![Weather screen, shows Kansas City's weather](./docs/screenshots/v1-01.png) |
+| ![Weather screen developer menu](./docs/screenshots/v1-03.png) |   |
+
+
 ## From PayIt Interview README
 
 This little guide should enable you to get cracking.
